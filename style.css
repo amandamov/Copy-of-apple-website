@@ -6,6 +6,11 @@
     --white: #fff;
 }
 
+@font-face {
+    font-family: "SFPRO";
+    src: url(font/SFPRODISPLAYREGULAR.OTF);
+  }
+
 body {
     background-color: #fffcfc;
     width: 100vw;
@@ -35,8 +40,8 @@ header ul {
 header li {
     padding-left: 3em;
     font-size: 12px;
-    font-family: sans-serif;
-    font-weight: 400;
+    font-family: "SFPRO";
+    font-weight: 200;
 }
 
 .unicef {
@@ -58,8 +63,11 @@ header li {
 }
 
 .unicef p {
-    margin-right: 2em;
-    color: #06c
+    margin-left: 14px;
+    color: #06c;
+    font-family: "SFPRO";
+    letter-spacing: inherit;
+    font-size: 14px;
 }
 
 .conteiner {
@@ -72,18 +80,40 @@ header li {
     margin-top: 2em;
 }
 
+.conteiner h2 {
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 800;
+    font-family: "SFPRO";
+    letter-spacing: -.002em;
+    margin-bottom: 0%;
+}
+
+.conteiner h3 {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "SFPRO";
+    line-height: 1.16667;
+    letter-spacing: .009em;
+
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
 .conteiner a {
     text-decoration: none;
     color: #06c;
     margin: 0 1em 0 1em;
+    font-family: "SFPRO";
 }
 
 .conteiner img {
     margin-top: 2em;
 }
 
-.supercharged h1{
+.supercharged h2{
     font-style: italic;
+    font-weight: bold;
 }
 
 @media only screen and (max-width: 390px) {
