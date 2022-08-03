@@ -1,32 +1,31 @@
-:root {
-    --grey-dark: #292b2c;
-    --grey-light: #e4e4e4;
-    --orange-dark: #c05326;
-    --orange-light: #f7eae4;
-    --white: #fff;
-}
+
 
 @font-face {
     font-family: "SFPRO";
     src: url(font/SFPRODISPLAYREGULAR.OTF);
-  }
+}
 
 body {
     background-color: #fffcfc;
-    width: 100vw;
+    margin: 0%;
+    width: 1425px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";;
 }
 
 header {
-    background-color: rgb(52, 49, 49);
+    background-color: #000000CC;
     color: white;
-    padding: 1em;
-    
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    max-height: 1em;
-    width: 100vw;
+    justify-content: center;
+    width: 100%;
+    height: 44px;
+    margin: 0%;
+}
+
+header img{
+    padding-left: 1em;
 }
 
 header ul {
@@ -38,9 +37,8 @@ header ul {
 }
 
 header li {
-    padding-left: 3em;
+    padding: 0 8px 0 8px;
     font-size: 12px;
-    font-family: "SFPRO";
     font-weight: 200;
 }
 
@@ -50,7 +48,7 @@ header li {
     align-content: space-around;
     justify-content: center;
     align-items: center;
-
+    width: 100%;
     background: rgb(255 246 246);
 }
 
