@@ -82,6 +82,7 @@ header li {
     text-align: center;
     position: absolute;
     padding-top: 2em;
+    z-index: 1;
 } 
 
 .text-container h2 {
@@ -147,6 +148,10 @@ header li {
 
     .text-container {
         position: static;
+    }
+
+    .container video {
+        width: 140vw;
     }
 
     .movie video {
