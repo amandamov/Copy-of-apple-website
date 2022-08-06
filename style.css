@@ -1,4 +1,10 @@
+* {
+    box-sizing: border-box;
+}
 
+body {
+    margin: 0;
+}
 
 @font-face {
     font-family: "SFPRO";
@@ -22,10 +28,15 @@ header {
     width: 100%;
     height: 44px;
     margin: 0%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
 }
 
 header img{
-    padding-left: 1em;
+    padding-left: 0;
 }
 
 header ul {
@@ -42,6 +53,141 @@ header li {
     font-weight: 200;
 }
 
+.container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container video {
+    width: 100vw;
+}
+
+.luck {
+    position: absolute;
+    display: flex;
+    padding-top: 2em;
+}
+
+/* .luck img {
+    width: 44%;
+} */
+
+.text-container {
+    font-family: "SFPRO";
+    text-align: center;
+    position: absolute;
+    padding-top: 2em;
+} 
+
+.text-container h2 {
+    font-weight: bolder;
+}
+
+.container .macbook {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.macbook .text-container {
+    position: static;
+}
+
+.macbook img {
+    width: 90vw;
+}
+
+.movie {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center; 
+}
+
+.luck-movie {
+    position: absolute;
+    display: flex;
+    padding-bottom: 2em;
+}
+
+.movie video {
+    width: 100vw;
+}
+
+
+@media only screen and (max-width: 395px) {
+    .container {
+        width: 100vw;
+    }
+
+    .text-container {
+        position: static;
+    }
+
+    .movie video {
+        width: 100vw;
+    }
+
+    .luck {
+        justify-content: center;
+    }
+
+    .luck img {
+        width: 30%;
+    }
+
+    .luck-movie {
+        justify-content: center;
+    }
+
+    .luck-movie img{
+        width: 30%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 main {
     width: 100%;
 }
@@ -170,4 +316,4 @@ h3 {
     }
 
   }
-
+ */
