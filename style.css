@@ -58,6 +58,18 @@ main {
     
 }
 
+.links-conteiner {
+    text-align: center;
+}
+
+.links-conteiner a:link{
+    text-decoration: none;
+}
+
+.links-conteiner a {
+    color: #06c;
+}
+
 .container-ipad img{
     width: 100%;
     position: relative;
@@ -93,54 +105,27 @@ main {
 
 .iphone13 {
     background-image: url("img/iphone13.jpg");
+    background-size: cover;
+    height: 692px;
 }
 
-/* .conteiner {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-
-    margin-top: 2em;
-}
-
-.conteiner h2 {
-    font-size: 48px;
-    line-height: 1.08349;
-    font-weight: 800;
-    font-family: "SFPRO";
-    letter-spacing: -.002em;
-    margin-bottom: 0%;
-}
-
-.conteiner h3 {
-    font-size: 24px;
-    font-weight: 400;
-    font-family: "SFPRO";
-    line-height: 1.16667;
-    letter-spacing: .009em;
-
-    margin-top: 5px;
-    margin-bottom: 15px;
-}
-
-.conteiner a {
-    text-decoration: none;
-    color: #06c;
-    margin: 0 1em 0 1em;
+h2 {
+    padding-top: 25px;
+    text-align: center;
+    font-weight: 600;
     font-family: "SFPRO";
 }
 
-.conteiner img {
-    margin-top: 2em;
+h3 {
+    text-align: center;
+    font-family: "SFPRO";
 }
 
-.supercharged h2{
-    font-style: italic;
-    font-weight: bold;
-} */
-
+.macbook-air {
+    text-align: center;
+    padding-top: 50px;
+    font-family: "SFPRO";
+}
 
 @media only screen and (max-width: 390px) {
     header > nav {
@@ -170,8 +155,18 @@ main {
         left: 80px;
     }
 
-    .text-trevo {
-   
+    .iphone13 {
+        width: 390px;
+        height: 300px;
+        background-size: contain;
+    }
+
+    .iphone13 {
+        padding-top: 5px;
+    }
+
+    .macbook-air img{
+        width: 385px;
     }
 
   }
