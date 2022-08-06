@@ -85,9 +85,31 @@ header li {
     z-index: 1;
 } 
 
+.text-container a:link {
+    text-decoration: none;
+}
+
+.text-container a:link {
+    color: #06c;
+}
+
+.text-container a:visited {
+    color: #06c;
+}
+
+.text-container a:hover {
+    color: #06c;
+}
+
+.text-container a:active {
+    color: #06c;
+}
+
 .text-container h2 {
     font-weight: bolder;
 }
+
+.text-container 
 
 .container .macbook {
     width: 100%;
@@ -152,6 +174,10 @@ header li {
 
     .container video {
         width: 140vw;
+    }
+
+    .movie {
+        padding-top: 2em;
     }
 
     .movie video {
